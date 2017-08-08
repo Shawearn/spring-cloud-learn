@@ -9,3 +9,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://debian.shawearn.com:3183/eureka/
+
+logging:
+  file: ${spring.application.name}.log
