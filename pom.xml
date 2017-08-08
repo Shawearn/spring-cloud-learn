@@ -31,7 +31,7 @@
 		<!-- eureka 服务提供者 -->
 		<module>eureka-provider</module>
 		<!-- eureka 服务消费者 -->
-		<!--<module>eureka-consumer-feign</module>-->
+		<module>eureka-consumer-feign</module>
 	</modules>
 
 	<dependencies>
