@@ -9,7 +9,7 @@
 	<packaging>pom</packaging>
 
 	<name>spring-cloud-learn</name>
-	<description>Demo project for Spring Cloud</description>
+	<description>Spring Cloud 学习项目</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
