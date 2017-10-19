@@ -6,6 +6,8 @@ server:
   port: 12000
 
 eureka:
+  instance:
+    prefer-ip-address: true
   client:
     serviceUrl:
       defaultZone: http://debian.shawearn.com:3183/eureka/
