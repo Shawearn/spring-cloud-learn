@@ -32,6 +32,8 @@
 		<module>eureka-provider</module>
 		<!-- eureka 服务消费者 -->
 		<module>eureka-consumer-feign</module>
+		<!-- AOP 日志 -->
+		<module>aop-log</module>
 	</modules>
 
 	<dependencies>

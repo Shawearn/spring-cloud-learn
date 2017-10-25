@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: aop-log
+  aop:
+    proxy-target-class: true
+
+server:
+  port: 12002
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://debian.shawearn.com:3183/eureka/
+
+logging:
+  file: ${spring.application.name}.log
