@@ -34,6 +34,8 @@
 		<module>eureka-consumer-feign</module>
 		<!-- AOP 日志 -->
 		<module>aop-log</module>
+		<!-- 服务网关 -->
+		<module>api-gateway</module>
 	</modules>
 
 	<dependencies>

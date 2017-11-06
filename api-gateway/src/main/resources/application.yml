@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: api-gateway
+
+server:
+  port: 12003
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname:debian.shawearn.com}:${eureka.server.port:3183}/eureka/
+
+logging:
+  file: ${spring.application.name}.log
+zuul:
+  routes:
+    aop-log:
+      path: /al/**
+      serviceId: aop-log
